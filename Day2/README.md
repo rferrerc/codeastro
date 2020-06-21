@@ -4,11 +4,17 @@
 
   * Set up a Github repository for your project. Start creating modules and classes that you need. 
   * Write at least 1 or 2 functions for tomorrow (we'll need it for an activity).
+  * The next two days will have a lot of scaffolding work for your code packages. Today is a good time to make progress on code functionality!
+
+## Learning Objectives
+
+  * Be able to use git and follow the git flow process to contribute version-controlled code
+  * Interactively debug code using breakpoints, and not rely on print statements
 
 ## Useful Links
 
   * [Day 2 Slides](https://docs.google.com/presentation/d/1HTWKeYw1iwI9AGh52uDatMo6T1wWUGbTmkhaJ_tyT5U/edit?usp=sharing)
-  * [Insert link for Mechanics of Git presentation]
+  * [Mechanics of Git (.pptx)](https://drive.google.com/file/d/1WE0eB4c1qb7N_aerenr4bboiNjvY7QT2/view?usp=sharing)
   * Fix this orbitize! bug: https://github.com/sblunt/orbitize/issues/171
 
 ## Debug orbitize!
@@ -25,7 +31,7 @@ Next, we'll want to override your system's default orbitize installation with th
 
     pip install -r requirements.txt -e .
 
-That command just ran pip to install the package in the current directory, and to automatically update when you ake changes to the code (useful for developing on packages). 
+That command just ran pip to install the package in the current directory, and to automatically update when you make changes to the code (useful for developing on packages). 
 
 Next, check out the `broken_orbitize` branch and fix the bug! To help you get started, we are providing the bug reproduction script from [the issue](https://github.com/sblunt/orbitize/issues/171) in this folder. If you run `broken_orbitize.py`, the code should crash.
 
